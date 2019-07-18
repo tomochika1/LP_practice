@@ -60,10 +60,11 @@ body {
   padding-bottom: 40px;
   border-top: 1px solid black;
   font-weight: normal;
-  display: inline-block;
-  width: 1500px;
+  display: flex;
+  justify-content: center;
+  width: 80%;
   margin: 0 auto;
-  text-align:  center;
+  text-align: center;
 }
 
 .container{
@@ -164,20 +165,21 @@ body {
 .instagram-media{
   padding: 0 30px;
 }
-.footer{
+
+footer{
   background-color:rgb(212, 212, 212);
   opacity: 0.5;
   text-align: center;
   margin-top: 100px;
 }
 
-.footer p {
+footer p {
   font-size: 20px;
   font-family: serif;
   margin: 0 ;
   padding-top:20px;
 }
-.footer i{
+footer i{
   font-size: 1em;
   text-align: center;
 }
@@ -185,7 +187,7 @@ body {
   justify-content: space-around;
   text-decoration: none;
 }
-.footer img{
+footer img{
   padding: 15px;
   border-radius: 25px;
   width: 250px;
@@ -199,4 +201,12 @@ body {
   font-family:'tahoma';
   font-weight: bold;
   opacity: 0.8;
+}
+
+.title{
+  font-size:40px;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  color: darkolivegreen;
 }
